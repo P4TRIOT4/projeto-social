@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+    height: 100vh;
+    background: url(../imagens/parede-preta.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+#tell{
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat top center;
+
+   
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe{
+    width: 269px;
+    height: 471px;
+    position: relative;
+    top: 80px;
+    left: 22px;
+}
+
+#rs{
+    text-align: right;
+}
+
+#rs img{
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.803);
+}
+
+#rs img:hover{
+    border: 3px solid white;
+    transform: translate(-10px, -10px);
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.742);
+     transition: transform .7s, border 1s;
+}
